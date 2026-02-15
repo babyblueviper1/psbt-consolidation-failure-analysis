@@ -12,7 +12,7 @@ These documents are intended for Bitcoin infrastructure teams, multisig operator
 - [Governance Risk in Bitcoin Consolidation: The Need for Testable Frameworks](./governance-risk-in-bitcoin-consolidation.md)  
   Examines the transition of Bitcoin UTXO consolidation from a niche technical concern into a systemic governance risk as adoption and institutional involvement scale; highlights operational, privacy, and financial exposures from ad-hoc processes and calls for deterministic, auditable, testable frameworks to mitigate them.
 
-- [Enforcing Consolidation Invariants Under Volatility: Deterministic Safeguards for Bitcoin Treasury and Multisig Operations](./enforcing-consolidation-invariants-under-volatility-deterministic-safeguards-for-bitcoin-treasury-and-multisig-operations.md)  
+- [Enforcing Consolidation Invariants Under Volatility: Deterministic Safeguards for Bitcoin Treasury and Multisig Operations](./enforcing-consolidation-invariants-under-volatility.md)  
   Provides practical mechanisms to enforce the required invariants for safe PSBT consolidation under volatile fee regimes, liquidity pressure, and treasury/multisig coordination challenges; extends prior failure analysis to real-world stress conditions and demonstrates how neutral, deterministic tooling makes unsafe states unrepresentable in high-stakes environments.
 
 ## License
