@@ -1,14 +1,31 @@
 # PSBT Consolidation Failure Analysis
 
-This repository contains technical notes and essays on Bitcoin PSBT consolidation risks and governance issues.
+This repository contains technical notes and essays exploring Bitcoin PSBT consolidation risks, operational failure modes, and governance implications at scale.
 
-## Essays
+These documents are intended for Bitcoin infrastructure teams, multisig operators, treasury custodians, auditors, and sovereign funds managing fragmented UTXOs in high-stakes environments.
 
-- [PSBT Consolidation: A Failure-Oriented Analysis of Real-World Bitcoin Operations](./psbt-consolidation-failure-analysis.md)
-- [Governance Risk in Bitcoin Consolidation: The Need for Testable Frameworks](./governance-risk-in-bitcoin-consolidation.md)
-- [Enforcing Consolidation Invariants Under Volatility: Deterministic Safeguards for Bitcoin Treasury and Multisig Operations](./enforcing-consolidation-invariants-under-volatility-deterministic-safeguards-for-bitcoin-treasury-and-multisig-operations.md)
+## Essays & Notes
+
+- [PSBT Consolidation: A Failure-Oriented Analysis of Real-World Bitcoin Operations](./psbt-consolidation-failure-analysis.md)  
+  A failure-oriented analysis of real-world PSBT-based consolidation operations, enumerating non-cryptographic failure modes (interface authority creep, cross-signer desynchronization, custody diffusion, audit breakdown) and defining the non-negotiable invariants required for safe execution at scale.
+
+- [Governance Risk in Bitcoin Consolidation: The Need for Testable Frameworks](./governance-risk-in-bitcoin-consolidation.md)  
+  Examines the transition of Bitcoin UTXO consolidation from a niche technical concern into a systemic governance risk as adoption and institutional involvement scale; highlights operational, privacy, and financial exposures from ad-hoc processes and calls for deterministic, auditable, testable frameworks to mitigate them.
+
+- [Enforcing Consolidation Invariants Under Volatility: Deterministic Safeguards for Bitcoin Treasury and Multisig Operations](./enforcing-consolidation-invariants-under-volatility-deterministic-safeguards-for-bitcoin-treasury-and-multisig-operations.md)  
+  Provides practical mechanisms to enforce the required invariants for safe PSBT consolidation under volatile fee regimes, liquidity pressure, and treasury/multisig coordination challenges; extends prior failure analysis to real-world stress conditions and demonstrates how neutral, deterministic tooling makes unsafe states unrepresentable in high-stakes environments.
 
 ## Repository Content
 
-- **PSBT Consolidation Essay**: Describes the risks and failure modes in PSBT consolidation.
-- **Governance Risk Essay**: Discusses the emerging operational and governance risks in Bitcoin transaction consolidation and proposes a testable framework.
+- **PSBT Consolidation Note**  
+  A failure-oriented analysis of real-world PSBT-based consolidation operations, enumerating non-cryptographic failure modes (interface authority creep, cross-signer desynchronization, custody diffusion, audit breakdown) and defining the non-negotiable invariants required for safe execution at scale.
+
+- **Governance Risk Essay**  
+  Examines the transition of Bitcoin UTXO consolidation from a niche technical concern into a systemic governance risk as adoption and institutional involvement scale; highlights operational, privacy, and financial exposures from ad-hoc processes and calls for deterministic, auditable, testable frameworks to mitigate them.
+
+- **Enforcing Consolidation Invariants Note**  
+  Provides practical mechanisms to enforce the required invariants for safe PSBT consolidation under volatile fee regimes, liquidity pressure, and treasury/multisig coordination challenges; extends prior failure analysis to real-world stress conditions and demonstrates how neutral, deterministic tooling makes unsafe states unrepresentable in high-stakes environments.
+
+## License
+
+All documents in this repository are licensed under the MIT License unless otherwise noted.
