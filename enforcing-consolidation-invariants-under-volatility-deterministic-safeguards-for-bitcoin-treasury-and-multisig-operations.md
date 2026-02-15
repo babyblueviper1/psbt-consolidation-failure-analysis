@@ -34,7 +34,7 @@ Without active enforcement, invariants degrade into documentation. Systemic expo
 
 ## 2. Volatility-Extended Failure Modes
 
-The failure modes enumerated in the prior note (#2: PSBT Consolidation – A Failure-Oriented Analysis) focused on process design, interface authority, coordination breakdowns, and governance diffusion in PSBT-based consolidation. Those core patterns remain foundational; however, real-world treasury and large multisig operations introduce additional stresses from fee volatility, timing pressure, and scaling dynamics.
+The failure modes enumerated in the prior note (#1: PSBT Consolidation – A Failure-Oriented Analysis) focused on process design, interface authority, coordination breakdowns, and governance diffusion in PSBT-based consolidation. Those core patterns remain foundational; however, real-world treasury and large multisig operations introduce additional stresses from fee volatility, timing pressure, and scaling dynamics.
 
 These stresses extend and amplify the original failure modes in the following ways, as observed in treasury-scale environments in 2026:
 
