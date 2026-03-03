@@ -15,6 +15,9 @@ These documents are intended for Bitcoin infrastructure teams, multisig operator
 - [Enforcing Consolidation Invariants Under Volatility: Deterministic Safeguards for Bitcoin Treasury and Multisig Operations](./enforcing-consolidation-invariants-under-volatility.md)  
   Provides practical mechanisms to enforce the required invariants for safe PSBT consolidation under volatile fee regimes, liquidity pressure, and treasury/multisig coordination challenges; extends prior failure analysis to real-world stress conditions and demonstrates how neutral, deterministic tooling makes unsafe states unrepresentable in high-stakes environments.
 
+- [Runtime Governance for Bitcoin Treasury Operations: Making Unsafe States Unrepresentable in PSBT Workflows](./runtime-governance-psbt-invariants.md)  
+  Argues for migrating Bitcoin treasury governance from procedural checklists to execution-layer constraints embedded in PSBT construction and validation tooling. Details how to structurally prevent unsafe states (liquidity over-exposure, fee spikes, fragmentation, coordination failures) via deterministic invariants, with concrete specification examples for infrastructure enforcement.
+
 ## License
 
 All documents in this repository are licensed under the MIT License unless otherwise noted.
